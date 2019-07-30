@@ -23,10 +23,7 @@ public class DevCode {
 
 	catch(Exception e){
 		System.out.println("Exception is the super class of all Exception classes");
-	}
-	catch(NullPointerException e) { 
-        System.out.print("NullPointerException Caught"); 
-    } 
+	} 
 	finally {
 		System.out.println("closing files...");
 	}

@@ -25,4 +25,10 @@ public class User {
 		this.userPassword = userPassword;
 	}
 
+
+	public Object getRefUserDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
