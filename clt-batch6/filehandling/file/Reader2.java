@@ -15,7 +15,7 @@ public class Reader2 {
 									//"c://nikhil.txt"
 		
 		//To store the contents read via File Reader
-		BufferedReader br = new BufferedReader(fr);
+		BufferedReader br = new BufferedReader(frRef);
 		
 		//Read br and store a line in 'data' , print data
 		String s;

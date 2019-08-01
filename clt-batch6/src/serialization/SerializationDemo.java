@@ -22,7 +22,7 @@ public class SerializationDemo implements Serializable {
 		try {
 		FileOutputStream fileOut = new FileOutputStream("david.txt"); // Create
 		ObjectOutputStream out = new ObjectOutputStream(fileOut);
-		out.writeObject(e);
+		out.writeObject(e); // Encypted Form
 		out.close();
 		fileOut.close();
 		} catch(IOException i) {

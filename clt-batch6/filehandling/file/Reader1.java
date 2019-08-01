@@ -2,10 +2,13 @@
 package file;
 
 import java.io.*;
+
 public class Reader1 {
 
 	public static void main(String[] args) throws IOException {
+		
 		DataInputStream in = null;
+		
 		try{
 			// Open the file that is the first command line parameter
 			// FileInputStream fs = new FileInputStream("c:\\file\\demo.txt");  //absolute path
