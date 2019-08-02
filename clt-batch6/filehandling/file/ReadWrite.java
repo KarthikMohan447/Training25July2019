@@ -13,6 +13,7 @@ class ReadWrite
     	
     	// Entering the File Name
     	System.out.println("Please enter the File Name");  
+    	
     	Scanner sc = new Scanner(System.in);
     	String filename = sc.next();  // Reading the file name
     	
